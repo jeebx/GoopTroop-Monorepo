@@ -4,7 +4,7 @@ export default function About() {
     return (
         <>
             <Head>
-                <title>About</title>
+                <title>Goop Troop About</title>
             </Head>
             <div class="container-fluid" id="contentContainer">
             <h2>About</h2>

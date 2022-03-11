@@ -4,7 +4,7 @@ export default function Faq() {
     return (
         <>
             <Head>
-                <title>FAQ</title>
+                <title>Goop Troop FAQ</title>
             </Head>
             <div class="container-fluid" id="contentContainer">
             <h2>FAQ</h2>

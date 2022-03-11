@@ -4,7 +4,7 @@ export default function ExternalLinks() {
     return (
         <>
             <Head>
-                <title>External Links</title>
+                <title>Goop Troop External Links</title>
             </Head>
             <div class="container-fluid" id="contentContainer">
             <h2>External Links Here</h2>
