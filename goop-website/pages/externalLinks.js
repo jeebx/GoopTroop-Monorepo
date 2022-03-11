@@ -1,13 +1,13 @@
 import Head from 'next/head';
 
-export default function About() {
+export default function ExternalLinks() {
     return (
         <>
             <Head>
-                <title>About</title>
+                <title>External Links</title>
             </Head>
             <div class="container-fluid" id="contentContainer">
-            <h2>About</h2>
+            <h2>External Links Here</h2>
             </div>
         </>
     )

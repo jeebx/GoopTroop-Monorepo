@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: #fff0be;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -21,18 +21,22 @@ body {
 }
 #navbarXL {
   align-items: center;
+  justify-content: space-around;
 }
 .navbar-brand {
-  min-width: 300px;
+  background-image: url(/images/logo.png);
+  background-repeat: no-repeat;
+  min-width: 200px;
   min-height: 60px;
   margin: 0px;
 }
 .nav-item {
   max-width: 200px;
-  min-width: 200px;
+  min-width: 140px;
   min-height: 50px;
   max-height: 50px;
-  align-self: center;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .navbar-toggler {
@@ -42,3 +46,74 @@ body {
   background-position: center;
 }
 
+.nav-item#aboutButton {
+  background-image: url(buttonBackgrounds/aboutButton.png);
+  background-repeat: no-repeat;
+  max-height: 140px;
+  max-width: 40px;
+}
+
+.nav-item#FAQ{
+  background-image: url(buttonBackgrounds/faqButton.png);
+  background-repeat: no-repeat;
+  max-height: 140px;
+  max-width: 40px;
+}
+
+.nav-item#externalLinks{
+  background-image: url(buttonBackgrounds/externalLinksButton.png);
+  background-repeat: no-repeat;
+  max-height: 140px;
+  max-width: 40px;
+}
+
+/* Home Page */
+.container-fluid#contentContainer {
+  margin-top: 50px;
+  background-color: #fff0be;
+  /* offset-x | offset-y | blur-radius | spread-radius | color */
+  -webkit-box-shadow: -2px 20px 15px 7px #000000;
+  -moz-box-shadow: -3px 20px 30px 14px #000000;
+  box-shadow: 10px 20px 60px 10px #000000;
+  border-radius: 25px;
+  min-height: 70vh;
+  border-color: #000000;
+  border-style: solid;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.carousel-item#noun72 {
+  background-image: url(nouns/noun72.svg);
+  background-repeat: no-repeat;
+  min-height:320px;
+  min-width: 320px;
+  max-height: 320px;
+  max-width: 320px;
+}
+
+.carousel-item#noun93 {
+  background-image: url(nouns/noun93.svg);
+  background-repeat: no-repeat;
+  min-height:320px;
+  min-width: 320px;
+  max-height: 320px;
+  max-width: 320px;
+}
+
+.card {
+  background-color: #5a65fa;
+  padding: 20px;
+  border: #000000;
+  border-style: solid;
+  border-radius: 25px;
+}
+
+.card#summaryCard > h2 {
+  font-weight: bold;
+  text-align: left;
+}
+
+.card#summaryCard > p {
+  font-weight: bold;
+}

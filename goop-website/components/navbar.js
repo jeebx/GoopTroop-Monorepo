@@ -41,9 +41,7 @@ const Navbar = ({ Component, pageProps }) => {
     <nav class="navbar navbar-expand-xl sticky-top">
         <div class="container-fluid">
             <Link href="/">
-                <a class="navbar-brand" >
-                    Logo
-                </a>
+                <a class="navbar-brand" ></a>
             </Link>
         <button class="navbar-toggler" 
             type="button" 
@@ -55,12 +53,13 @@ const Navbar = ({ Component, pageProps }) => {
         <div class="collapse navbar-collapse" id="navbarXL">
 			<ul class="navbar-nav">
                 <Link href="/about">
-                    <a class="nav-item" id="aboutButton">About
-                    </a>
+                    <a class="nav-item" id="aboutButton"></a>
                 </Link>
-                <Link href="/examplePage">
-                    <a class="nav-item" id="examplePageButton">Example Page
-                    </a>
+                <Link href="/faq">
+                    <a class="nav-item" id="FAQ"></a>
+                </Link>
+                <Link href="/externalLinks">
+                    <a class="nav-item" id="externalLinks"></a>
                 </Link>
                 {/* <Link href="/..">
                     <a class="nav-item" id="">  
@@ -68,12 +67,12 @@ const Navbar = ({ Component, pageProps }) => {
                 </Link> */}
 			</ul>
         </div>
-            <div class="d-flex flex-row">
+            {/* <div class="d-flex flex-row">
                 <div>
                     <button class="btn bg-primary" id="connectButton" onClick={connectWalletPressed}><strong>Connect Button</strong></button>
                     <p>{'Connected as: 0x...' + walletAddress.slice(-4)}</p>
                 </div>
-            </div>
+            </div> */}
         </div>
     </nav>
     );
